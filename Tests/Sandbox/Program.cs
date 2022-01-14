@@ -81,7 +81,7 @@
 					Console.WriteLine(exception.Message);
 				}
 
-				view.Append($"\r\nPress any key to make another check...");
+				view.Append($"\r\nPress 'Enter' to make another check...");
 				PrintView(view);
 				Console.ReadLine();
 			} while (true);
